@@ -1,0 +1,43 @@
+.contactContainer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 12px;
+}
+
+.contactContainer div > h1 {
+  margin: 20px;
+  color: #f99417;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.footerInfo h4 {
+    text-transform: uppercase;
+}
+.footerInfo > div {
+margin-bottom: 18px;
+}
+.footerInfo div > span {
+  color: #f99417;
+  font-size: 30px;
+  font-weight: bold;
+}
+.socialMediaIconsContact span {
+  color: #f99417;
+  margin: 5px;
+}
+.contantInfo {
+  margin-bottom: 30px;
+}
+.contantInfo h3 {
+    margin-bottom: 12px;
+}
+@media screen and (min-width: 800px) {
+  .footerInfo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 22px;
+  }
+}

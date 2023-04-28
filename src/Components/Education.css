@@ -1,0 +1,96 @@
+.educationContainer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 12px;
+}
+.educationContainer > h1 {
+  margin: 20px;
+  color: #f99417;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 25rem;
+  border-radius: 1rem;
+  background: white;
+  box-shadow: 4px 4px 15px rgba(#000, 0.15);
+  position: relative;
+  color: #434343;
+  margin-bottom: 20px;
+  margin: 20px;
+}
+
+.card .card__container {
+  padding: 2rem;
+  padding-top: 3rem;
+  width: 100%;
+  background: white;
+  border-radius: 1rem;
+  position: relative;
+  text-align: left;
+  text-align: justify;
+}
+
+.card .card__header {
+  margin-bottom: 1rem;
+  font-family: "Playfair Display", serif;
+}
+
+.card .card__body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #6e6e6e;
+}
+
+.card::before {
+  position: absolute;
+  top: 2rem;
+  right: -0.5rem;
+  content: "";
+  background: #f99417;
+  height: 28px;
+  width: 28px;
+  transform: rotate(45deg);
+}
+
+.card::after {
+  position: absolute;
+  content: attr(data-label);
+  top: 11px;
+  right: -14px;
+  padding: 0.5rem;
+  width: 140px;
+  background: #f99417;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2);
+}
+
+.card__header > span {
+  color: #f99417;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+
+@media screen and (min-width: 800px) {
+  .cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}

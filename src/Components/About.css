@@ -1,0 +1,142 @@
+.aboutContainer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.aboutContainer .aboutHeading h1 {
+  margin: 20px;
+  color: #f99417;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.aboutContainer .aboutHeading p {
+  font-weight: bold;
+  line-height: 1.25;
+  font-weight: 600;
+  color: #313131;
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+.aboutContent .aboutProfileImage img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+.aboutContent .aboutDescription {
+  font-size: 16px;
+  line-height: 2rem;
+  text-align: justify;
+  margin: 28px;
+  color: #6e6e6e;
+}
+
+.aboutIcon {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.aboutInfoColoumn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6e6e6e;
+}
+
+.aboutInfoColoumn .leftInfo {
+  text-align: right;
+  padding-left: 20px;
+}
+
+.aboutInfoColoumn .rightInfo {
+  text-align: left;
+  border-left: 2px solid #f99417;
+  margin-left: 55px;
+  padding: 10px 0 10px 15px;
+}
+.leftInfo p {
+  padding: 12px;
+}
+.rightInfo p {
+  padding: 12px;
+}
+.aboutButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 10px;
+  padding: 10px 20px;
+}
+
+.aboutButton .btn-1,
+.aboutButton .btn-2,
+.aboutButton a {
+  width: 100%;
+  margin-bottom: 12px;
+  height: 40px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.aboutButton .btn-1 {
+  color: #f99417;
+  border: 2px solid #f99417;
+  background-color: #fff;
+}
+
+.aboutButton .btn-2 {
+  color: #fff;
+  background-color: #f99417;
+  border: 2px solid #f99417;
+}
+
+.socialMediaIcons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+@media screen and (min-width: 800px) {
+  .aboutContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: justify;
+    margin: 0 60px;
+  }
+  .aboutContainer .aboutHeading p {
+    margin-left: 20px;
+  }
+  .socialMediaIcons {
+    margin: 0 auto;
+    width: 20%;
+    justify-content: space-around;
+  }
+  .aboutButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .aboutButton .btn-1,
+  .aboutButton .btn-2 {
+    width: 180px;
+    height: 60px;
+    margin: 0 30px;
+  }
+  .aboutButton a {
+    width: 250px;
+    height: 45px;
+  }
+}
