@@ -48,13 +48,11 @@ const Contact = () => {
             </span>
             <span>
               <a rel="noreferrer" href="https://www.linkedin.com/in/anujna-rai-n-002106152/" target="_blank">
-                {" "}
                 <FaGithubSquare />
               </a>
             </span>
             <span>
               <a rel="noreferrer" href="https://github.com/anujna14" target="_blank">
-                {" "}
                 <FaLinkedin />
               </a>
             </span>
