@@ -43,7 +43,11 @@ const About = () => {
           </div>
         </div>
         <div className="aboutButton">
-          <button className="btn-1">Get In Touch ?</button>
+          <a href="#contact">
+            {" "}
+            <button className="btn-1">Get In Touch ?</button>
+          </a>
+
           <a href={Resume} download>
             {" "}
             <button className="btn-2">Get My CV ?</button>

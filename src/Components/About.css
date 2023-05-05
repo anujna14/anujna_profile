@@ -57,7 +57,7 @@
 .aboutInfoColoumn .rightInfo {
   text-align: left;
   border-left: 2px solid #f99417;
-  margin-left: 55px;
+  margin-left: 51px;
   padding: 10px 0 10px 15px;
 }
 .leftInfo p {
@@ -138,5 +138,8 @@
   .aboutButton a {
     width: 250px;
     height: 45px;
+  }
+  .aboutInfoColoumn .rightInfo {
+    margin-left: 55px;
   }
 }
