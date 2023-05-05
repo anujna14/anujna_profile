@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/anujna_profile/static/css/main.ec049c04.css",
-    "main.js": "/anujna_profile/static/js/main.261c4ed5.js",
+    "main.css": "/anujna_profile/static/css/main.855fdd9a.css",
+    "main.js": "/anujna_profile/static/js/main.c28ae3ae.js",
     "static/media/profilePhoto.JPG": "/anujna_profile/static/media/profilePhoto.6558d860d683f35bc9aa.JPG",
     "static/media/bg1.jpg": "/anujna_profile/static/media/bg1.938b38b4cfd9e253306f.jpg",
     "static/media/Resume.pdf": "/anujna_profile/static/media/Resume.467ca1ff141ff05cb60f.pdf",
     "index.html": "/anujna_profile/index.html",
-    "main.ec049c04.css.map": "/anujna_profile/static/css/main.ec049c04.css.map",
-    "main.261c4ed5.js.map": "/anujna_profile/static/js/main.261c4ed5.js.map"
+    "main.855fdd9a.css.map": "/anujna_profile/static/css/main.855fdd9a.css.map",
+    "main.c28ae3ae.js.map": "/anujna_profile/static/js/main.c28ae3ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec049c04.css",
-    "static/js/main.261c4ed5.js"
+    "static/css/main.855fdd9a.css",
+    "static/js/main.c28ae3ae.js"
   ]
 }
