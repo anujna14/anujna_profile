@@ -42,20 +42,28 @@ const Contact = () => {
           <h4>Social Networks</h4>
           <div className="socialMediaIconsContact">
             <span>
-              <FaFacebook />
+              <a rel="noreferrer" href="" target="_blank">
+                <FaFacebook />
+              </a>
             </span>
             <span>
-              <FaGithubSquare />
+              <a rel="noreferrer" href="https://www.linkedin.com/in/anujna-rai-n-002106152/" target="_blank">
+                {" "}
+                <FaGithubSquare />
+              </a>
             </span>
             <span>
-              <FaLinkedin />
+              <a rel="noreferrer" href="https://github.com/anujna14" target="_blank">
+                {" "}
+                <FaLinkedin />
+              </a>
             </span>
           </div>
         </div>
       </div>
       <div className="copyRight">
         <p>
-          <span style={{padding: "12px", fontSize: "19px"}}>
+          <span style={{ padding: "12px", fontSize: "19px" }}>
             {" "}
             <FaCopyright fontSize="12px" />
           </span>

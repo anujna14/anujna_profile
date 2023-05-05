@@ -55,14 +55,19 @@ const About = () => {
         </div>
         <div className="socialMediaIcons">
           <div>
-            <FaGithubSquare color="#f99417" fontSize="25px" />
+            <a rel="noreferrer" href="https://www.linkedin.com/in/anujna-rai-n-002106152/" target="_blank">
+              <FaGithubSquare color="#f99417" fontSize="25px" />
+            </a>
           </div>
           <div>
-            {" "}
-            <FaFacebook color="#f99417" fontSize="25px" />
+            <a rel="noreferrer" href="" target="_blank">
+              <FaFacebook color="#f99417" fontSize="25px" />
+            </a>
           </div>
           <div>
-            <FaLinkedin color="#f99417" fontSize="25px" />
+            <a rel="noreferrer" href="https://github.com/anujna14" target="_blank">
+              <FaLinkedin color="#f99417" fontSize="25px" />
+            </a>
           </div>
         </div>
       </div>
